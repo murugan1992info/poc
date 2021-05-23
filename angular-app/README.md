@@ -1,6 +1,30 @@
-# AngularApp
+#Follow the below steps to create angular app
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
+##Download node package from this site and install it
+   https://nodejs.org/en/
+   
+##Install angular cli using this command 
+	`npm install -g @angular/cli`
+	
+##To create angular app execute this command in cmd 
+	`ng new angular-app`
+	
+	###While creating this app it will ask for somequestions like below
+		Would you like to add Angular routing? Yes
+			Which type of style sheet you are going to use your project like css or scss, that you need to select in below query by using up and down arrow.
+		Which stylesheet format would you like to use? CSS
+		
+##Finally your app has been created successfully.
+
+##To run your app.
+   enter into you app folder(angular-app)
+		`cd angular-app`
+		
+	##Then, execute `ng serve` command to run the angular app.
+	
+##For the first run it will take while to compile the app.  Next time onwards it won't take much time on compilation.
+
+##Load this endpoint(http://localhost:4200/) in browser to see you running app.
 
 ## Development server
 
